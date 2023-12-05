@@ -5,13 +5,6 @@ import java.util.*;
 public class Main2 {
     public static void main(String[] args) {
 
-//        Random random = new Random();
-//        for(int i = 0; i < 100; i++) {
-//            int numero = random.nextInt(101);
-//            listaNumeri.add(numero);
-//        }
-//        System.out.println(listaNumeri);
-
         List<Integer> listaNumeri = new ArrayList<>();
         generatoreNumeriCasuali(listaNumeri, 10);
         invertiLista(listaNumeri);
