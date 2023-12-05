@@ -4,7 +4,6 @@ import java.util.*;
 
 public class Main2 {
     public static void main(String[] args) {
-
         List<Integer> listaNumeri = new ArrayList<>();
         generatoreNumeriCasuali(listaNumeri, 10);
         invertiLista(listaNumeri);
@@ -24,6 +23,5 @@ public class Main2 {
         Collections.reverse(listaNumeri);
         System.out.println(listaNumeri);
     }
-
 
 }
